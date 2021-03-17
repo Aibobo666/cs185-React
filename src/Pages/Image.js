@@ -13,19 +13,19 @@ class Image extends React.Component {
         });
     }
     
-    componentDidMount() {
-        window.addEventListener('scroll', this.scrollFunction);
-    }
+    // componentDidMount() {
+    //     window.addEventListener('scroll', this.scrollFunction);
+    // }
 
-    scrollFunction(){
-        var myButton = document.getElementById("myBtn");
-        if(document.body.scrollTop > 0.25*(document.body.scrollHeight) || 
-            document.documentElement.scrollTop > 0.25*(document.documentElement.scrollHeight)){
-                myButton.style.display = "block";
-            }else{
-                myButton.style.display = "none";
-            }
-    }
+    // scrollFunction(){
+    //     var myButton = document.getElementById("myBtn");
+    //     if(document.body.scrollTop > 0.25*(document.body.scrollHeight) || 
+    //         document.documentElement.scrollTop > 0.25*(document.documentElement.scrollHeight)){
+    //             myButton.style.display = "block";
+    //         }else{
+    //             myButton.style.display = "none";
+    //         }
+    // }
     
     topFunction(){
         document.body.scrollTop = 0;

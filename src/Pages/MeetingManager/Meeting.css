@@ -1,0 +1,84 @@
+.header {
+  color: #00ff99;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  font-family:'Roboto',sans-serif;
+  border-style: dashed;
+  border-color: #00ff99;
+}
+
+
+.container {
+  background-color: black;
+  border-style: dashed;
+  max-width: 800px;
+  margin: 40px auto;
+  overflow: auto;
+  min-height: 300px;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.btn {
+  display: inline-block;
+  background:black;
+  color:#00ff99;
+  border-style: dashed;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  border-color: #00ff99;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family:'Roboto',sans-serif;
+}
+
+.task {
+  color: #00ff99;
+  border-color: #00ff99;
+  border-style: dashed;
+  margin: 5px;
+  padding: 5px 15px;
+  cursor: pointer;
+  font-family:'Roboto',sans-serif;
+}
+.task a{
+  color: #196848;
+}
+
+.task.important a{
+  color: #851944;
+}
+
+.task.important{
+  color: #ff0066;
+}
+.add_Task{
+  border-style: dashed;
+  border-color: #00ff99;
+}
+.add_Task_element{
+  color: #00ff99;
+  margin: 10px;
+  font-family:'Roboto',sans-serif;
+}
+.add_Task_element input{
+  border-style: dashed;
+  border-color: #00ff99;
+  background-color: black;
+  margin-left: 5px;
+}
+input, ::placeholder{
+  color: #346d56;
+}
+
+.deleteBtn{
+  margin-top: 5px;
+}
+
+
+
+

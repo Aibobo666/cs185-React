@@ -8,6 +8,7 @@ import Table from './Pages/Table';
 import Email from './Pages/Email';
 import Image from './Pages/Image';
 import Video from './Pages/Video';
+import Meeting from './Pages/MeetingManager/Meeting';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/Email' component={Email}/>
         <Route path='/Image' component={Image}/>
         <Route path='/Video' component={Video}/>
+        <Route path='/Meeting' component={Meeting}/>
       </Switch>
     </Router>
   );
